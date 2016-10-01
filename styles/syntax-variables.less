@@ -1,0 +1,38 @@
+@import "colors";
+
+// This defines all syntax variables that syntax themes must implement when they
+// include a syntax-variables.less file.
+
+@gorevojd-text-color: @burlywood;
+@gorevojd-strings-and-constants-color: @olive-drab;
+@gorevojd-keywords-color: @dark-goldenrod-three;
+@gorevojd-comments-color: @gray-fifty;
+@gorevojd-background-color: @gray-sixteen;
+@gorevojd-cursor-color: #ff3333;
+
+// General colors
+@syntax-text-color: @gorevojd-text-color;
+@syntax-cursor-color: @gorevojd-cursor-color;
+@syntax-selection-color: lighten(@dark-gray, 10%);
+@syntax-background-color: @gorevojd-background-color;
+
+// Guide colors
+@syntax-wrap-guide-color: @gorevojd-background-color;
+@syntax-indent-guide-color: @gorevojd-cursor-color;
+@syntax-invisible-character-color: @gorevojd-cursor-color;
+
+// For find and replace markers
+@syntax-result-marker-color: @gorevojd-cursor-color;
+@syntax-result-marker-color-selected: @gorevojd-cursor-color;
+
+// Gutter colors
+@syntax-gutter-text-color: @gorevojd-text-color;
+@syntax-gutter-text-color-selected: @gorevojd-text-color;
+@syntax-gutter-background-color: @gorevojd-background-color;
+@syntax-gutter-background-color-selected: lighten(@gorevojd-background-color, 10%);
+
+// For git diff info. i.e. in the gutter
+@syntax-color-renamed: @blue;
+@syntax-color-added: @green;
+@syntax-color-modified: @orange;
+@syntax-color-removed: @red;

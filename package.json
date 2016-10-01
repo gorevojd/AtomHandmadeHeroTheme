@@ -1,0 +1,26 @@
+{
+  "name": "gorevojd-syntax",
+  "theme": "syntax",
+  "version": "0.0.0",
+  "core": {
+    "disabledPackages": [
+      "minimap",
+      "enhanced-package-list",
+      "themed-settings"
+    ],
+    "themes": [
+      "one-dark-ui",
+      "kuali-dark-syntax"
+    ]
+},
+  "description": "A short description of your syntax theme",
+  "keywords": [
+    "syntax",
+    "theme"
+  ],
+  "repository": "https://github.com/atom/gorevojd-syntax",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  }
+}
